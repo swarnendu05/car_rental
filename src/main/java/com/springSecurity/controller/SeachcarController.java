@@ -25,7 +25,6 @@ public class SeachcarController {
         this.carRepository = carRepository;
     }
 
-   //   http://localhost:8080/api/vi/search-car/cars?name=automatic
     @GetMapping("/cars")
     public List<Car> searchCar(
             @RequestParam String name
